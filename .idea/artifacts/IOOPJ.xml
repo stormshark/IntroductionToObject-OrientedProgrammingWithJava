@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IOOPJ">
+    <output-path>$PROJECT_DIR$/out/artifacts/IOOPJ</output-path>
+    <root id="archive" name="IOOPJ.jar">
+      <element id="module-output" name="Introduction to Object-Oriented Programming with Java" />
+    </root>
+  </artifact>
+</component>
