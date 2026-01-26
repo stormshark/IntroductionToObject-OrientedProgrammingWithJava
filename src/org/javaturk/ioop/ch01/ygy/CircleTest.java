@@ -6,6 +6,7 @@ void main(){
     Circle testCircle = new Circle();
   String sonuc =  testCircle.getCircleInfo();
   IO.println(sonuc);
+    IO.println("sonuc");
 }
 
 }
