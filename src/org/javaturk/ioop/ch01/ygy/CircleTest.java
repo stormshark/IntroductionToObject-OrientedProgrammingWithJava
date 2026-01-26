@@ -7,6 +7,7 @@ void main(){
   String sonuc =  testCircle.getCircleInfo();
   IO.println(sonuc);
     IO.println("sonuc");
+    IO.println("sonuc2");
 }
 
 }
