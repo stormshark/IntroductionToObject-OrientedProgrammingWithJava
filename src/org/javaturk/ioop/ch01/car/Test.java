@@ -10,7 +10,7 @@ package org.javaturk.ioop.ch01.car;
  */
 public class Test {
 
-	public static void main(String[] args) {
+	void main() {
 		Car car1 = new Car();
 
 		System.out.println("When the car stands still.");

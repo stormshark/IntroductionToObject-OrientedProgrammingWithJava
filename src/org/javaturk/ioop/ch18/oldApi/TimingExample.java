@@ -24,13 +24,13 @@ public class TimingExample {
 		}
 		end = System.currentTimeMillis();
 		long time = end - start;
-		System.out.println(STR."\{time} milli seconds for copying an array using loop.");
+		System.out.println("time +  milli seconds for copying an array using loop.");
 
 		start = System.currentTimeMillis();
 		System.arraycopy(a, 0, b, 0, b.length);
 		end = System.currentTimeMillis();
 		time = end - start;
-		System.out.println(STR."\{time} milli seconds for copying an array using System.arraycopy().");
+		System.out.println("time + milli seconds for copying an array using System.arraycopy().");
 	}
 	
 	public static void measureLag(int milisecond) throws InterruptedException{

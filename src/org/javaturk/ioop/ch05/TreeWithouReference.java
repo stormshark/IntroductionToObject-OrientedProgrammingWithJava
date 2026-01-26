@@ -1,10 +1,10 @@
 package org.javaturk.ioop.ch05;
 
-public class ObjectsAndReferences {
+public class TreeWithouReference {
 	private String type;
 	private float height;
 
-	public ObjectsAndReferences(String newType, float newHeight) {
+	public TreeWithouReference(String newType, float newHeight) {
 		System.out.println("in TreesWithoutReferences");
 		type = newType;
 		height = newHeight;
@@ -17,24 +17,24 @@ public class ObjectsAndReferences {
 	}
 
 	public static void main(String[] args) {
-		new ObjectsAndReferences("Pine", 5.0f);
+		new TreeWithouReference("Pine", 5.0f);
 		// Can't reach the object created above, Pine at 5 height!
 
-		ObjectsAndReferences t = new ObjectsAndReferences("Pine", 5.0f);
+		TreeWithouReference t = new TreeWithouReference("Pine", 5.0f);
 		System.out.println("Height: " + t.height + " m.");
 
 		for (int i = 0; i < 5; i++) {
-			t = new ObjectsAndReferences("Pine", i);
+			t = new TreeWithouReference("Pine", i);
 			System.out.println("Height: " + t.height + " m.");
 		}
 
 		System.out.println("Height: " + t.height + " m.");
 
-		new ObjectsAndReferences("Pine", 5).printInfo();
+		new TreeWithouReference("Pine", 5).printInfo();
 
-		ObjectsAndReferences tt1;
+		TreeWithouReference tt1;
 
-		ObjectsAndReferences tt2 = null;
+		TreeWithouReference tt2 = null;
 		tt2.printInfo();
 	}
 }
