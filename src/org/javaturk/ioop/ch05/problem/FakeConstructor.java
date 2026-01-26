@@ -2,11 +2,11 @@ package org.javaturk.ioop.ch05.problem;
 
 public class FakeConstructor {
 
-	FakeConstructor() {
-		System.out.println("in FakeConstructor");
+	public FakeConstructor() {
+		System.out.println("Original Constructor");
 	}
 	
-	void FakeConstructor() {
+	void FakeConstructor2() {
 		System.out.println("in FakeConstructor method");
 	}
 	
